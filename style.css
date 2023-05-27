@@ -1,0 +1,79 @@
+body {
+    font-family: Brandley Hand;
+    background-color: #171717;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+header img {
+    height: 60px;
+    width: 60px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    margin: 10px;
+    padding: 5px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+nav a:hover {
+    padding: 10px;
+    transition: 0.2s ease-in;
+}
+
+main img{
+    height: 700px;
+    width: 1440px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+main img:hover {
+    border: 5px solid white;
+    transition: 0.2s ease-in;
+}
+
+main p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+footer a {
+    text-align: center;
+}
